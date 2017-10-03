@@ -1,0 +1,81 @@
+{
+  "races": [
+    {
+    "name": "Lake Elsinore",
+    "elevation": 1296,
+    "temperature": 75,
+    "humidity": 70,
+    "resultsURL": "https://www.spartan.com/en/race/detail/1730/results?fullResults=true"
+    },
+    {
+    "name": "Arizona",
+    "elevation": 1440,
+    "temperature": 70,
+    "humidity": 51,
+    "resultsURL": "https://www.spartan.com/en/race/detail/1713/results?fullResults=true"
+    },
+    {
+    "name": "Texas",
+    "elevation": 227,
+    "temperature": 70,
+    "humidity": 99,
+    "resultsURL": "https://www.spartan.com/en/race/detail/1717/results?fullResults=true"
+    },
+    {
+    "name": "Georgia",
+    "elevation": 899,
+    "temperature": 65,
+    "humidity": 93,
+    "resultsURL": "https://www.spartan.com/en/race/detail/1673/results?fullResults=true"
+    },
+    {
+    "name": "Washington",
+    "elevation": 66,
+    "temperature": 52,
+    "humidity": 86,
+    "resultsURL": "https://www.spartan.com/en/race/detail/1726/results?fullResults=true"
+    },
+    {
+    "name": "Montana",
+    "elevation": 2979,
+    "temperature": 50,
+    "humidity": 99,
+    "resultsURL": "https://www.spartan.com/en/race/detail/1734/results?fullResults=true"
+    },
+    {
+    "name": "Ohio",
+    "elevation": 735,
+    "temperature": 72,
+    "humidity": 93,
+    "resultsURL": "https://www.spartan.com/en/race/detail/1885/results?fullResults=true"
+    },
+    {
+    "name": "New York",
+    "elevation": 479,
+    "temperature": 69,
+    "humidity": 100,
+    "resultsURL": "https://www.spartan.com/en/race/detail/2460/results?fullResults=true"
+    },
+    {
+    "name": "Colorado",
+    "elevation": 9600,
+    "temperature": 66,
+    "humidity": 50,
+    "resultsURL": "https://www.spartan.com/en/race/detail/2571/results?fullResults=true"
+    },
+    {
+    "name": "Tennessee",
+    "elevation": 509,
+    "temperature": 92,
+    "humidity": 93,
+    "resultsURL": "https://www.spartan.com/en/race/detail/2420/results?fullResults=true"
+    },
+    {
+    "name": "British Columbia",
+    "elevation": 6824,
+    "temperature": 69,
+    "humidity": 66,
+    "resultsURL": "http://www.spartanrace.ca/en/race/detail/2674/results?fullResults=true"
+    }
+  ]
+}
