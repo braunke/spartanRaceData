@@ -66,9 +66,4 @@ def displayRows():
     print("Here are all the table rows")
     for row in cursor:
         print("RACEID=", row[0], "AGE=", row[1], "GENDER=", row[2], "TIME=", row[3])
-
-    cursor = conn.execute('''SELECT RACEID, LOCATION, ALTITUDE, TEMPU, HUMIDITY from
-                              RACES''')
-    print("Here are all the table rows")
-    for row in cursor:
-        print("RACEID=", row[0], "LOCATION=", row[1], "ALTITUDE=", row[2], "TEMPU=", row[3], "HUMIDITY=", row[4])
+displayRows()
