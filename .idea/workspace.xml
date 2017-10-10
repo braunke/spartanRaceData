@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22424bcf-de1b-4e2a-9569-441c4e1146d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graph.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/graphing.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sp.db" afterPath="$PROJECT_DIR$/sp.db" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculations.py" afterPath="$PROJECT_DIR$/calculations.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/database.py" afterPath="$PROJECT_DIR$/database.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph.py" afterPath="$PROJECT_DIR$/graph.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,7 +16,7 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/spartan$graphing.coverage" NAME="graphing Coverage Results" MODIFIED="1507581458792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spartan$ss.coverage" NAME="ss Coverage Results" MODIFIED="1506523544186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spartan$graph.coverage" NAME="graph Coverage Results" MODIFIED="1507605877375" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spartan$graph.coverage" NAME="graph Coverage Results" MODIFIED="1507669199666" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spartan$databse.coverage" NAME="databse Coverage Results" MODIFIED="1507605201463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spartan$calculations.coverage" NAME="calculations Coverage Results" MODIFIED="1507605282721" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spartan$sel.coverage" NAME="sel Coverage Results" MODIFIED="1507061789059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -84,18 +81,18 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculations.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calculations.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculations.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="365">
-              <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
+            <state relative-caret-position="200">
+              <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1507605782000" expanded="true" signature="192:247" ph="SELECT RACEI... " />
-                <marker date="1507605782000" expanded="true" signature="192:261" ph="SELECT TIME RESULTS" />
-                <marker date="1507605782000" expanded="true" signature="192:262" ph="SELECT TIME RESULTS" />
-                <marker date="1507605782000" expanded="true" signature="1180:1255" ph="SELECT LOCAT... RACES" />
-                <marker date="1507605782000" expanded="true" signature="1474:1533" ph="SELECT RACEI... RACES" />
+                <marker date="1507669183000" expanded="true" signature="235:290" ph="SELECT RACEI... " />
+                <marker date="1507669183000" expanded="true" signature="235:304" ph="SELECT TIME RESULTS" />
+                <marker date="1507669183000" expanded="true" signature="235:305" ph="SELECT TIME RESULTS" />
+                <marker date="1507669183000" expanded="true" signature="1223:1298" ph="SELECT LOCAT... RACES" />
+                <marker date="1507669183000" expanded="true" signature="1560:1619" ph="SELECT RACEI... RACES" />
               </folding>
             </state>
           </provider>
@@ -104,8 +101,8 @@
       <file leaf-file-name="graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="36" />
+            <state relative-caret-position="135">
+              <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -113,11 +110,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="graphing.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/graphing.py">
+      <file leaf-file-name="averageBar.svg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/averageBar.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+            <state relative-caret-position="0">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -516,7 +513,14 @@
       <option name="project" value="LOCAL" />
       <updated>1507325962530</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="gets all average times and graphs">
+      <created>1507606005647</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1507606005647</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -554,7 +558,8 @@
     <MESSAGE value="can write data into database" />
     <MESSAGE value="gitignore" />
     <MESSAGE value="querying database" />
-    <option name="LAST_COMMIT_MESSAGE" value="querying database" />
+    <MESSAGE value="gets all average times and graphs" />
+    <option name="LAST_COMMIT_MESSAGE" value="gets all average times and graphs" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -633,14 +638,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/graphing.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bar_chart.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
@@ -649,28 +646,44 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/calculations.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1507669183000" expanded="true" signature="235:290" ph="SELECT RACEI... " />
+            <marker date="1507669183000" expanded="true" signature="235:304" ph="SELECT TIME RESULTS" />
+            <marker date="1507669183000" expanded="true" signature="235:305" ph="SELECT TIME RESULTS" />
+            <marker date="1507669183000" expanded="true" signature="1223:1298" ph="SELECT LOCAT... RACES" />
+            <marker date="1507669183000" expanded="true" signature="1560:1619" ph="SELECT RACEI... RACES" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/graphing.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="19" lean-forward="true" selection-start-line="8" selection-start-column="19" selection-end-line="8" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="0" lean-forward="false" selection-start-line="6" selection-start-column="0" selection-end-line="7" selection-end-column="36" />
+        <state relative-caret-position="135">
+          <caret line="9" column="19" lean-forward="true" selection-start-line="9" selection-start-column="19" selection-end-line="9" selection-end-column="19" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/calculations.py">
+    <entry file="file://$PROJECT_DIR$/averageBar.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="365">
-          <caret line="50" column="26" lean-forward="true" selection-start-line="50" selection-start-column="26" selection-end-line="50" selection-end-column="26" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1507605782000" expanded="true" signature="192:247" ph="SELECT RACEI... " />
-            <marker date="1507605782000" expanded="true" signature="192:261" ph="SELECT TIME RESULTS" />
-            <marker date="1507605782000" expanded="true" signature="192:262" ph="SELECT TIME RESULTS" />
-            <marker date="1507605782000" expanded="true" signature="1180:1255" ph="SELECT LOCAT... RACES" />
-            <marker date="1507605782000" expanded="true" signature="1474:1533" ph="SELECT RACEI... RACES" />
-          </folding>
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

@@ -1,7 +1,7 @@
 import sqlite3
 from datetime import timedelta
 from datetime import datetime
-
+#grabs all the average times from each race
 def getAInfo(race):
     conn = sqlite3.connect('sp.db')
     cur = conn.cursor()
@@ -36,8 +36,7 @@ def getAInfo(race):
         location = (row[0])
     return final, location
 #getAInfo()
-
-
+#collects all the data and puts it in a list
 def getItAll():
     conn = sqlite3.connect('sp.db')
     cur = conn.cursor()
