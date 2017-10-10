@@ -66,4 +66,27 @@ def displayRows():
     print("Here are all the table rows")
     for row in cursor:
         print("RACEID=", row[0], "AGE=", row[1], "GENDER=", row[2], "TIME=", row[3])
-displayRows()
+#displayRows()
+def displayRACERows():
+    conn = sqlite3.connect('sp.db')
+    cursor = conn.execute('''SELECT RACEID, LOCATION, ALTITUDE, TEMPU, HUMIDITY from
+                          RACES''')
+    print("Here are all the table rows")
+    for row in cursor:
+        print("RACEID=", row[0], "LOCATION=", row[1], "ALTITUDE=", row[2], "TEMPU=", row[3], "HUMIDITY=", row[4])
+#displayRACERows()
+def deleateRows():
+
+        conn = sqlite3.connect('sp.db')
+
+        cursor = conn.execute('DELETE FROM RACES WHERE RACEID = 4')
+        # uses rowcount to see if a row was affected
+        deleteStatus = (cursor.rowcount)
+        # depending on if rows were affected or not a message will print
+        if deleteStatus == 0:
+            print("This product is not in the database")
+        elif deleteStatus == 1:
+            print("Row was deleted")
+        conn.commit()
+        conn.close()
+deleateRows()
