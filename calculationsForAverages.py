@@ -1,6 +1,5 @@
 import sqlite3
 from datetime import timedelta
-from datetime import datetime
 #grabs all the average times from each race
 def getAInfo(race):
     conn = sqlite3.connect('sp.db')
@@ -34,6 +33,7 @@ def getAInfo(race):
     location = ''
     for row in cursor:
         location = (row[0])
+
     return final, location
 
 #collects all the data and puts it in a list
@@ -48,6 +48,7 @@ def getItAll():
     for raceid in raceids:
         race = getAInfo(raceid[0])
         races.append(race)
+    print(races)
     return races
 getItAll()
 #calculates the average race times for males and females
@@ -107,7 +108,7 @@ def getAllFemale():
         femaleRaces.append(race)
     print(femaleRaces)
     return femaleRaces
-getAllFemale()
+
 def getRaceList():
     conn = sqlite3.connect('sp.db')
     cursor = conn.execute('''SELECT DISTINCT LOCATION from
