@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="22424bcf-de1b-4e2a-9569-441c4e1146d9" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/calculationsForAgeGroups.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculationsForAgeGroups.py" afterPath="$PROJECT_DIR$/calculationsForAgeGroups.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculationsForAverages.py" afterPath="$PROJECT_DIR$/calculationsForAverages.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/calculationsForScatter.py" afterPath="$PROJECT_DIR$/calculationsForScatter.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/graph.py" afterPath="$PROJECT_DIR$/graph.py" />
@@ -18,13 +18,13 @@
   <component name="CoverageDataManager">
     <SUITE FILE_PATH="coverage/spartan$graphing.coverage" NAME="graphing Coverage Results" MODIFIED="1507581458792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spartan$ss.coverage" NAME="ss Coverage Results" MODIFIED="1506523544186" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spartan$graph.coverage" NAME="graph Coverage Results" MODIFIED="1507922704560" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spartan$graph.coverage" NAME="graph Coverage Results" MODIFIED="1507929318275" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spartan$databse.coverage" NAME="databse Coverage Results" MODIFIED="1507605201463" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spartan$calculations.coverage" NAME="calculations Coverage Results" MODIFIED="1507837356733" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spartan$sel.coverage" NAME="sel Coverage Results" MODIFIED="1507061789059" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spartan$calculationsForAgeGroups.coverage" NAME="calculationsForAgeGroups Coverage Results" MODIFIED="1507922451552" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/spartan$scrape.coverage" NAME="scrape Coverage Results" MODIFIED="1506523940458" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/spartan$calculationsForScatter.coverage" NAME="calculationsForScatter Coverage Results" MODIFIED="1507838568092" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/spartan$calculationsForScatter.coverage" NAME="calculationsForScatter Coverage Results" MODIFIED="1507927790655" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
@@ -32,7 +32,7 @@
       <file leaf-file-name="database.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="412">
+            <state relative-caret-position="447">
               <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
               <folding>
                 <marker date="1507605201000" expanded="true" signature="116:123" ph="CREATE TABLE... RACES" />
@@ -61,22 +61,22 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="calculationsForAverages.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="calculationsForAverages.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculationsForAverages.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-411">
-              <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
+            <state relative-caret-position="169">
+              <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="32" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1507922786000" expanded="true" signature="189:244" ph="SELECT RACEI... " />
-                <marker date="1507922786000" expanded="true" signature="189:258" ph="SELECT TIME RESULTS" />
-                <marker date="1507922786000" expanded="true" signature="189:259" ph="SELECT TIME RESULTS" />
-                <marker date="1507922786000" expanded="true" signature="1177:1252" ph="SELECT LOCAT... RACES" />
-                <marker date="1507922786000" expanded="true" signature="1504:1563" ph="SELECT RACEI... RACES" />
-                <marker date="1507922786000" expanded="true" signature="1941:2030" ph="SELECT TIME RESULTS" />
-                <marker date="1507922786000" expanded="true" signature="3036:3095" ph="SELECT RACEI... RACES" />
-                <marker date="1507922786000" expanded="true" signature="3398:3457" ph="SELECT RACEI... RACES" />
-                <marker date="1507922786000" expanded="true" signature="3774:3847" ph="SELECT DISTI... RACES" />
+                <marker date="1507924454000" expanded="true" signature="189:244" ph="SELECT RACEI... " />
+                <marker date="1507924454000" expanded="true" signature="189:258" ph="SELECT TIME RESULTS" />
+                <marker date="1507924454000" expanded="true" signature="189:259" ph="SELECT TIME RESULTS" />
+                <marker date="1507924454000" expanded="true" signature="1177:1252" ph="SELECT LOCAT... RACES" />
+                <marker date="1507924454000" expanded="true" signature="1504:1563" ph="SELECT RACEI... RACES" />
+                <marker date="1507924454000" expanded="true" signature="1941:2030" ph="SELECT TIME RESULTS" />
+                <marker date="1507924454000" expanded="true" signature="3069:3128" ph="SELECT RACEI... RACES" />
+                <marker date="1507924454000" expanded="true" signature="3431:3490" ph="SELECT RACEI... RACES" />
+                <marker date="1507924454000" expanded="true" signature="3802:3875" ph="SELECT DISTI... RACES" />
               </folding>
             </state>
           </provider>
@@ -85,17 +85,11 @@
       <file leaf-file-name="calculationsForAgeGroups.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculationsForAgeGroups.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="379">
-              <caret line="98" column="14" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="14" />
+            <state relative-caret-position="300">
+              <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
               <folding>
-                <marker date="1507922591000" expanded="true" signature="135:223" ph="SELECT TIME RESULTS" />
-                <marker date="1507922591000" expanded="true" signature="438:497" ph="SELECT RACEI... RACES" />
-                <marker date="1507922591000" expanded="true" signature="827:929" ph="SELECT TIME RESULTS" />
-                <marker date="1507922591000" expanded="true" signature="1142:1201" ph="SELECT RACEI... RACES" />
-                <marker date="1507922591000" expanded="true" signature="1527:1629" ph="SELECT TIME RESULTS" />
-                <marker date="1507922591000" expanded="true" signature="1842:1901" ph="SELECT RACEI... RACES" />
-                <marker date="1507922591000" expanded="true" signature="2231:2329" ph="SELECT TIME RESULTS" />
-                <marker date="1507922591000" expanded="true" signature="2575:2634" ph="SELECT RACEI... RACES" />
+                <marker date="1507923627000" expanded="true" signature="137:235" ph="SELECT TIME RESULTS" />
+                <marker date="1507923627000" expanded="true" signature="481:540" ph="SELECT RACEI... RACES" />
               </folding>
             </state>
           </provider>
@@ -104,8 +98,8 @@
       <file leaf-file-name="graph.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/graph.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="410">
-              <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+            <state relative-caret-position="201">
+              <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
               <folding>
                 <element signature="e#0#12#0" expanded="true" />
               </folding>
@@ -116,8 +110,20 @@
       <file leaf-file-name="agePie.svg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/agePie.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
+            <state relative-caret-position="30">
               <caret line="2" column="80" lean-forward="true" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+              <folding>
+                <marker date="1507929324000" expanded="true" signature="9702:13434" ph="..." />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="elevationScatter.svg" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/elevationScatter.svg">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="1" column="1518" lean-forward="true" selection-start-line="1" selection-start-column="1518" selection-end-line="1" selection-end-column="1518" />
               <folding>
                 <element signature="e#2039#2043#0" expanded="true" />
                 <element signature="e#2131#2135#0" expanded="true" />
@@ -126,28 +132,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="elevationScatter.svg" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/elevationScatter.svg">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding>
-                <marker date="1507922705000" expanded="true" signature="8340:12005" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="calculationsForScatter.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/calculationsForScatter.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="765">
-              <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+            <state relative-caret-position="364">
+              <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
-                <marker date="1507918772000" expanded="true" signature="204:282" ph="SELECT TIME RESULTS" />
-                <marker date="1507918772000" expanded="true" signature="1232:1315" ph="SELECT ALTIT... RACES" />
-                <marker date="1507918772000" expanded="true" signature="1522:1581" ph="SELECT RACEI... RACES" />
+                <marker date="1507929258000" expanded="true" signature="204:387" ph="SELECT TIME RESULTS" />
+                <marker date="1507929258000" expanded="true" signature="1203:1262" ph="SELECT RACEI... RACES" />
               </folding>
             </state>
           </provider>
@@ -159,7 +152,7 @@
             <state relative-caret-position="15">
               <caret line="1" column="1204" lean-forward="true" selection-start-line="1" selection-start-column="1204" selection-end-line="1" selection-end-column="1204" />
               <folding>
-                <marker date="1507922705000" expanded="true" signature="8567:12341" ph="..." />
+                <marker date="1507929318000" expanded="true" signature="8567:12341" ph="..." />
               </folding>
             </state>
           </provider>
@@ -168,10 +161,10 @@
       <file leaf-file-name="averageBar.svg" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/averageBar.svg">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="30">
+              <caret line="2" column="745" lean-forward="true" selection-start-line="2" selection-start-column="745" selection-end-line="2" selection-end-column="745" />
               <folding>
-                <marker date="1507922705000" expanded="true" signature="9702:13456" ph="..." />
+                <marker date="1507929318000" expanded="true" signature="9702:13456" ph="..." />
               </folding>
             </state>
           </provider>
@@ -207,10 +200,10 @@
         <option value="$PROJECT_DIR$/graphing.py" />
         <option value="$PROJECT_DIR$/database.py" />
         <option value="$PROJECT_DIR$/calculations.py" />
-        <option value="$PROJECT_DIR$/calculationsForScatter.py" />
         <option value="$PROJECT_DIR$/calculationsForAgeGroups.py" />
-        <option value="$PROJECT_DIR$/graph.py" />
         <option value="$PROJECT_DIR$/calculationsForAverages.py" />
+        <option value="$PROJECT_DIR$/calculationsForScatter.py" />
+        <option value="$PROJECT_DIR$/graph.py" />
       </list>
     </option>
   </component>
@@ -221,7 +214,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="75" />
+    <option name="x" value="67" />
     <option name="y" value="23" />
     <option name="width" value="1245" />
     <option name="height" value="813" />
@@ -641,8 +634,8 @@
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Python.graph" />
-        <item index="1" class="java.lang.String" itemvalue="Python.calculationsForAgeGroups" />
-        <item index="2" class="java.lang.String" itemvalue="Python.calculationsForScatter" />
+        <item index="1" class="java.lang.String" itemvalue="Python.calculationsForScatter" />
+        <item index="2" class="java.lang.String" itemvalue="Python.calculationsForAgeGroups" />
         <item index="3" class="java.lang.String" itemvalue="Python.calculations" />
         <item index="4" class="java.lang.String" itemvalue="Python.databse" />
       </list>
@@ -708,11 +701,18 @@
       <option name="project" value="LOCAL" />
       <updated>1507838859307</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ageGroup pie chart">
+      <created>1507922798223</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1507922798223</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="75" y="23" width="1245" height="813" extended-state="0" />
+    <frame x="67" y="23" width="1245" height="813" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2950956" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -721,7 +721,7 @@
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32871014" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2773925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2773925" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24937657" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32918397" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
@@ -771,7 +771,8 @@
     <MESSAGE value="relabling" />
     <MESSAGE value="males vs female graph working" />
     <MESSAGE value="elevation scatter plot" />
-    <option name="LAST_COMMIT_MESSAGE" value="elevation scatter plot" />
+    <MESSAGE value="ageGroup pie chart" />
+    <option name="LAST_COMMIT_MESSAGE" value="ageGroup pie chart" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -821,7 +822,7 @@
         <state relative-caret-position="285">
           <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
-            <element signature="e#177#207#0" expanded="true" />
+            <element signature="e#177#207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -832,15 +833,15 @@
           <caret line="38" column="44" lean-forward="false" selection-start-line="38" selection-start-column="44" selection-end-line="38" selection-end-column="44" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1507922786000" expanded="true" signature="189:244" ph="SELECT RACEI... " />
-            <marker date="1507922786000" expanded="true" signature="189:258" ph="SELECT TIME RESULTS" />
-            <marker date="1507922786000" expanded="true" signature="189:259" ph="SELECT TIME RESULTS" />
-            <marker date="1507922786000" expanded="true" signature="1177:1252" ph="SELECT LOCAT... RACES" />
-            <marker date="1507922786000" expanded="true" signature="1504:1563" ph="SELECT RACEI... RACES" />
-            <marker date="1507922786000" expanded="true" signature="1941:2030" ph="SELECT TIME RESULTS" />
-            <marker date="1507922786000" expanded="true" signature="3036:3095" ph="SELECT RACEI... RACES" />
-            <marker date="1507922786000" expanded="true" signature="3398:3457" ph="SELECT RACEI... RACES" />
-            <marker date="1507922786000" expanded="true" signature="3774:3847" ph="SELECT DISTI... RACES" />
+            <marker date="1507924454000" expanded="true" signature="189:244" ph="SELECT RACEI... " />
+            <marker date="1507924454000" expanded="true" signature="189:258" ph="SELECT TIME RESULTS" />
+            <marker date="1507924454000" expanded="true" signature="189:259" ph="SELECT TIME RESULTS" />
+            <marker date="1507924454000" expanded="true" signature="1177:1252" ph="SELECT LOCAT... RACES" />
+            <marker date="1507924454000" expanded="true" signature="1504:1563" ph="SELECT RACEI... RACES" />
+            <marker date="1507924454000" expanded="true" signature="1941:2030" ph="SELECT TIME RESULTS" />
+            <marker date="1507924454000" expanded="true" signature="3069:3128" ph="SELECT RACEI... RACES" />
+            <marker date="1507924454000" expanded="true" signature="3431:3490" ph="SELECT RACEI... RACES" />
+            <marker date="1507924454000" expanded="true" signature="3802:3875" ph="SELECT DISTI... RACES" />
           </folding>
         </state>
       </provider>
@@ -860,7 +861,7 @@
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
-            <marker date="1507922705000" expanded="true" signature="9702:13456" ph="..." />
+            <marker date="1507929318000" expanded="true" signature="9702:13456" ph="..." />
           </folding>
         </state>
       </provider>
@@ -898,7 +899,7 @@
         <state relative-caret-position="285">
           <caret line="23" column="17" lean-forward="false" selection-start-line="23" selection-start-column="17" selection-end-line="23" selection-end-column="17" />
           <folding>
-            <element signature="e#177#207#0" expanded="true" />
+            <element signature="e#177#207#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -912,22 +913,12 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/bar_chart.svg" />
-    <entry file="file://$PROJECT_DIR$/averageBar.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1507922705000" expanded="true" signature="9702:13456" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/averageMFBar.svg">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
           <caret line="1" column="1204" lean-forward="true" selection-start-line="1" selection-start-column="1204" selection-end-line="1" selection-end-column="1204" />
           <folding>
-            <marker date="1507922705000" expanded="true" signature="8567:12341" ph="..." />
+            <marker date="1507929318000" expanded="true" signature="8567:12341" ph="..." />
           </folding>
         </state>
       </provider>
@@ -940,9 +931,59 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/agePie.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="80" lean-forward="true" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+          <folding>
+            <marker date="1507929324000" expanded="true" signature="9702:13434" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculationsForAgeGroups.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="26" lean-forward="false" selection-start-line="20" selection-start-column="26" selection-end-line="20" selection-end-column="26" />
+          <folding>
+            <marker date="1507923627000" expanded="true" signature="137:235" ph="SELECT TIME RESULTS" />
+            <marker date="1507923627000" expanded="true" signature="481:540" ph="SELECT RACEI... RACES" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/calculationsForAverages.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="169">
+          <caret line="106" column="32" lean-forward="true" selection-start-line="106" selection-start-column="8" selection-end-line="106" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#14#0" expanded="true" />
+            <marker date="1507924454000" expanded="true" signature="189:244" ph="SELECT RACEI... " />
+            <marker date="1507924454000" expanded="true" signature="189:258" ph="SELECT TIME RESULTS" />
+            <marker date="1507924454000" expanded="true" signature="189:259" ph="SELECT TIME RESULTS" />
+            <marker date="1507924454000" expanded="true" signature="1177:1252" ph="SELECT LOCAT... RACES" />
+            <marker date="1507924454000" expanded="true" signature="1504:1563" ph="SELECT RACEI... RACES" />
+            <marker date="1507924454000" expanded="true" signature="1941:2030" ph="SELECT TIME RESULTS" />
+            <marker date="1507924454000" expanded="true" signature="3069:3128" ph="SELECT RACEI... RACES" />
+            <marker date="1507924454000" expanded="true" signature="3431:3490" ph="SELECT RACEI... RACES" />
+            <marker date="1507924454000" expanded="true" signature="3802:3875" ph="SELECT DISTI... RACES" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/averageBar.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="745" lean-forward="true" selection-start-line="2" selection-start-column="745" selection-end-line="2" selection-end-column="745" />
+          <folding>
+            <marker date="1507929318000" expanded="true" signature="9702:13456" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/database.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="412">
+        <state relative-caret-position="447">
           <caret line="85" column="29" lean-forward="false" selection-start-line="85" selection-start-column="29" selection-end-line="85" selection-end-column="29" />
           <folding>
             <marker date="1507605201000" expanded="true" signature="116:123" ph="CREATE TABLE... RACES" />
@@ -960,82 +1001,35 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/elevationScatter.svg">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <marker date="1507922705000" expanded="true" signature="8340:12005" ph="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/calculationsForScatter.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="0" lean-forward="false" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="0" />
+        <state relative-caret-position="364">
+          <caret line="45" column="27" lean-forward="true" selection-start-line="45" selection-start-column="27" selection-end-line="45" selection-end-column="27" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
-            <marker date="1507918772000" expanded="true" signature="204:282" ph="SELECT TIME RESULTS" />
-            <marker date="1507918772000" expanded="true" signature="1232:1315" ph="SELECT ALTIT... RACES" />
-            <marker date="1507918772000" expanded="true" signature="1522:1581" ph="SELECT RACEI... RACES" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculationsForAgeGroups.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="379">
-          <caret line="98" column="14" lean-forward="false" selection-start-line="98" selection-start-column="0" selection-end-line="98" selection-end-column="14" />
-          <folding>
-            <marker date="1507922591000" expanded="true" signature="135:223" ph="SELECT TIME RESULTS" />
-            <marker date="1507922591000" expanded="true" signature="438:497" ph="SELECT RACEI... RACES" />
-            <marker date="1507922591000" expanded="true" signature="827:929" ph="SELECT TIME RESULTS" />
-            <marker date="1507922591000" expanded="true" signature="1142:1201" ph="SELECT RACEI... RACES" />
-            <marker date="1507922591000" expanded="true" signature="1527:1629" ph="SELECT TIME RESULTS" />
-            <marker date="1507922591000" expanded="true" signature="1842:1901" ph="SELECT RACEI... RACES" />
-            <marker date="1507922591000" expanded="true" signature="2231:2329" ph="SELECT TIME RESULTS" />
-            <marker date="1507922591000" expanded="true" signature="2575:2634" ph="SELECT RACEI... RACES" />
+            <marker date="1507929258000" expanded="true" signature="204:387" ph="SELECT TIME RESULTS" />
+            <marker date="1507929258000" expanded="true" signature="1203:1262" ph="SELECT RACEI... RACES" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/graph.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="410">
-          <caret line="44" column="13" lean-forward="true" selection-start-line="44" selection-start-column="13" selection-end-line="44" selection-end-column="13" />
+        <state relative-caret-position="201">
+          <caret line="31" column="5" lean-forward="false" selection-start-line="31" selection-start-column="5" selection-end-line="31" selection-end-column="5" />
           <folding>
             <element signature="e#0#12#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/agePie.svg">
+    <entry file="file://$PROJECT_DIR$/elevationScatter.svg">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="2" column="80" lean-forward="true" selection-start-line="2" selection-start-column="80" selection-end-line="2" selection-end-column="80" />
+        <state relative-caret-position="255">
+          <caret line="1" column="1518" lean-forward="true" selection-start-line="1" selection-start-column="1518" selection-end-line="1" selection-end-column="1518" />
           <folding>
             <element signature="e#2039#2043#0" expanded="true" />
             <element signature="e#2131#2135#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/calculationsForAverages.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-411">
-          <caret line="55" column="23" lean-forward="false" selection-start-line="55" selection-start-column="23" selection-end-line="55" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#14#0" expanded="true" />
-            <marker date="1507922786000" expanded="true" signature="189:244" ph="SELECT RACEI... " />
-            <marker date="1507922786000" expanded="true" signature="189:258" ph="SELECT TIME RESULTS" />
-            <marker date="1507922786000" expanded="true" signature="189:259" ph="SELECT TIME RESULTS" />
-            <marker date="1507922786000" expanded="true" signature="1177:1252" ph="SELECT LOCAT... RACES" />
-            <marker date="1507922786000" expanded="true" signature="1504:1563" ph="SELECT RACEI... RACES" />
-            <marker date="1507922786000" expanded="true" signature="1941:2030" ph="SELECT TIME RESULTS" />
-            <marker date="1507922786000" expanded="true" signature="3036:3095" ph="SELECT RACEI... RACES" />
-            <marker date="1507922786000" expanded="true" signature="3398:3457" ph="SELECT RACEI... RACES" />
-            <marker date="1507922786000" expanded="true" signature="3774:3847" ph="SELECT DISTI... RACES" />
           </folding>
         </state>
       </provider>

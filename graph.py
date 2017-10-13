@@ -26,9 +26,16 @@ def averageMvsF():
 averageMvsF()
 def elevationScatter():
     xy_chart = pygal.XY(stroke=False)
-    races = calculationsForScatter.getItAll()
+
     xy_chart.title = 'Affects of Elevation'
-    xy_chart.add('A', races)
+    xy_chart.add('Washington', calculationsForScatter.getItAll(0))
+    #print(calculationsForScatter.getItAll(1))
+    xy_chart.add('A', calculationsForScatter.getItAll(1))
+    xy_chart.add('A', calculationsForScatter.getItAll(2))
+    xy_chart.add('A', calculationsForScatter.getItAll(3))
+    xy_chart.add('A', calculationsForScatter.getItAll(4))
+    xy_chart.add('A', calculationsForScatter.getItAll(5))
+
     xy_chart.render_to_file('elevationScatter.svg')
 elevationScatter()
 def ageGroupPie():

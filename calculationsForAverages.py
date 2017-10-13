@@ -81,6 +81,7 @@ def getAverageGender(race, gender):
     final = times / 3600
 
     return final
+#grabs gender specific race data
 def getAllMale():
     conn = sqlite3.connect('sp.db')
     cur = conn.cursor()
@@ -104,9 +105,8 @@ def getAllFemale():
     for raceid in raceids:
         race = getAverageGender(raceid[0], gender)
         femaleRaces.append(race)
-    print(femaleRaces)
     return femaleRaces
-
+#list of all races
 def getRaceList():
     conn = sqlite3.connect('sp.db')
     cursor = conn.execute('''SELECT DISTINCT LOCATION from
@@ -115,7 +115,6 @@ def getRaceList():
     for row in cursor:
         location = (row[0])
         locationList.append(location)
-
     return  locationList
 
 
