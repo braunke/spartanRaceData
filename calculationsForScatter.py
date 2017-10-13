@@ -1,5 +1,6 @@
 import sqlite3
 from datetime import timedelta
+#grabs race time averages and altitude
 def getRaceTimes(race):
     conn = sqlite3.connect('sp.db')
     cur = conn.cursor()
@@ -36,8 +37,6 @@ def getRaceTimes(race):
         altitude = (row[0])
 
     return final, altitude
-
-
 def getItAll():
     conn = sqlite3.connect('sp.db')
     cur = conn.cursor()
@@ -49,6 +48,4 @@ def getItAll():
     for raceid in raceids:
         race = getRaceTimes(raceid[0])
         races.append(race)
-    print(races)
     return races
-getItAll()

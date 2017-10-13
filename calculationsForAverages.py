@@ -4,7 +4,6 @@ from datetime import timedelta
 def getAInfo(race):
     conn = sqlite3.connect('sp.db')
     cur = conn.cursor()
-    race = race
     cur.execute('''SELECT TIME  from
                               RESULTS WHERE RACEID=? ''',(race,))
     results= cur.fetchall()
@@ -55,7 +54,6 @@ getItAll()
 def getAverageGender(race, gender):
     conn = sqlite3.connect('sp.db')
     cur = conn.cursor()
-    race = race
     gender = gender
     cur.execute('''SELECT TIME  from
                                     RESULTS WHERE RACEID=? and GENDER=?''', (race,gender,))
