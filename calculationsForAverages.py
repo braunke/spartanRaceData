@@ -47,9 +47,9 @@ def getItAll():
     for raceid in raceids:
         race = getAInfo(raceid[0])
         races.append(race)
-    print(races)
+
     return races
-getItAll()
+
 #calculates the average race times for males and females
 def getAverageGender(race, gender):
     conn = sqlite3.connect('sp.db')
