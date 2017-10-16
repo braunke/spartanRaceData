@@ -8,13 +8,13 @@ m = folium.Map(
 folium.Marker(
     location=[33.6681, -117.3273],
     popup='California',
-    icon=folium.Icon(icon='cloud')
+    icon=folium.Icon(color='red', icon='info-sign')
 ).add_to(m)
 
 folium.Marker(
     location=[33.5802, -111.6462],
     popup='Arizona',
-    icon=folium.Icon(color='green')
+    icon=folium.Icon(color='red', icon='info-sign')
 ).add_to(m)
 
 folium.Marker(
@@ -63,4 +63,4 @@ folium.Marker(
     icon=folium.Icon(color='red', icon='info-sign')
 ).add_to(m)
 
-m.save('index.html')
+m.save('map.html')

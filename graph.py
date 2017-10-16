@@ -21,15 +21,15 @@ def averageMvsF():
     line_chart.x_labels = locations
     line_chart.add('Males', maleRace)
     line_chart.add('Females', femaleRace)
-    line_chart.render_to_file('averageMFBar.svg')
-#averageMvsF()
+    line_chart.render_to_file('averageMFBar.html')
+averageMvsF()
 def elevationScatter():
     xy_chart = pygal.XY(title='Affects of Elevation', x_title='Hours', y_title='Elevation')
     locations = calculationsForAverages.getRaceList()
     for i in range(0, 10):
         xy_chart.add(locations[i], calculationsForScatter.getItAllAlt(i))
-    xy_chart.render_to_file('elevationScatter.svg')
-#elevationScatter()
+    xy_chart.render_to_file('elevationScatter.html')
+elevationScatter()
 def ageGroupPie():
     pie_chart = pygal.Pie()
     pie_chart.title = 'Age group categories'
@@ -40,26 +40,26 @@ def ageGroupPie():
     pie_chart.add('50-59', calculationsForAgeGroups.getAllAgeGroup(50, 59))
     pie_chart.add('60-69', calculationsForAgeGroups.getAllAgeGroup(60, 69))
     pie_chart.add('70-79', calculationsForAgeGroups.getAllAgeGroup(70, 79))
-    pie_chart.render_to_file('agePie.svg')
-#ageGroupPie()
+    pie_chart.render_to_file('agePie.html')
+ageGroupPie()
 def humidityScatter():
     xy_chart = pygal.XY( title='Affects of Humidity', x_title='Hours', y_title='Humidity')
     locations = calculationsForAverages.getRaceList()
     for i in range(0, 10):
         xy_chart.add(locations[i], calculationsForScatter.getItAllHumidity(i))
-    xy_chart.render_to_file('humidityScatter.svg')
-#humidityScatter()
+    xy_chart.render_to_file('humidityScatter.html')
+humidityScatter()
 def tempScatter():
     xy_chart = pygal.XY(title='Affects of Temperature', x_title='Hours', y_title='Temperature')
     locations = calculationsForAverages.getRaceList()
     for i in range(0, 10):
         xy_chart.add(locations[i], calculationsForScatter.getItAllTemp(i))
-    xy_chart.render_to_file('tempScatter.svg')
+    xy_chart.render_to_file('tempScatter.html')
 #tempScatter()
 def topTimesBar():
     races = calculationsTopTimes.getItAll()
     line_chart = pygal.HorizontalBar(title='Top 20 Average Race Finish Times', x_title='Hours')
     for race in races:
         line_chart.add(race[1], race[0])
-    line_chart.render_to_file('topTimesBar.svg')
-topTimesBar()
+    line_chart.render_to_file('topTimesBar.html')
+#topTimesBar()
