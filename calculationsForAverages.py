@@ -27,6 +27,7 @@ def getAInfo(race):
     times = sum([a * b for a, b in zip(ftr, map(int, averageS.split(':')))])
     final = times/3600
     conn = sqlite3.connect('sp.db')
+    print(final)
     cursor = conn.execute('''SELECT LOCATION from
                                   RACES WHERE RACEID=?''',(race,))
     location = ''
@@ -49,7 +50,7 @@ def getItAll():
         races.append(race)
 
     return races
-
+getItAll()
 #calculates the average race times for males and females
 def getAverageGender(race, gender):
     conn = sqlite3.connect('sp.db')

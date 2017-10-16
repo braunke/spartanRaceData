@@ -1,12 +1,6 @@
 {
   "races": [
-    {
-    "name": "California",
-    "elevation": 1296,
-    "temperature": 75,
-    "humidity": 70,
-    "resultsURL": "https://www.spartan.com/en/race/detail/1730/results?fullResults=true"
-    },
+
     {
     "name": "Arizona",
     "elevation": 1440,
@@ -55,27 +49,7 @@
     "temperature": 69,
     "humidity": 100,
     "resultsURL": "https://www.spartan.com/en/race/detail/2460/results?fullResults=true"
-    },
-    {
-    "name": "Colorado",
-    "elevation": 9600,
-    "temperature": 66,
-    "humidity": 50,
-    "resultsURL": "https://www.spartan.com/en/race/detail/2571/results?fullResults=true"
-    },
-    {
-    "name": "Tennessee",
-    "elevation": 509,
-    "temperature": 92,
-    "humidity": 93,
-    "resultsURL": "https://www.spartan.com/en/race/detail/2420/results?fullResults=true"
-    },
-    {
-    "name": "British Columbia",
-    "elevation": 6824,
-    "temperature": 69,
-    "humidity": 66,
-    "resultsURL": "http://www.spartanrace.ca/en/race/detail/2674/results?fullResults=true"
     }
+
   ]
 }

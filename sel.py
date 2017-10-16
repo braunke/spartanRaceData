@@ -11,7 +11,7 @@ with open('races.json') as data_file:
     data = json.load(data_file)
 browser = webdriver.Chrome(executable_path = pathChrome)
 
-database.createDatabase()
+#database.createDatabase()
 for race in data["races"] :
     url = race["resultsURL"]
     elevation = race["elevation"]
@@ -21,6 +21,13 @@ for race in data["races"] :
     raceID = database.createRace(location, elevation, temperature, humidity)
 
     browser.get(url)
+    time.sleep(2)
+    browser.find_elements_by_css_selector('div[name="race-filter"] button')[0].click()
+    time.sleep(1)
+    raceOptions = browser.find_elements_by_css_selector('div[name="race-filter"] li')
+    for raceOption in raceOptions:
+        if "Sprint" in raceOption.text and "Open" in raceOption.text:
+            raceOption.click()
     time.sleep(2)
     resultNum = 0
     while True:

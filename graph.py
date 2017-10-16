@@ -12,7 +12,7 @@ def averageTimesGraph():
     for race in races:
         line_chart.add(race[1], race[0])
     line_chart.render_to_file('averageBar.svg')
-#averageTimesGraph()
+averageTimesGraph()
 def averageMvsF():
     maleRace = calculationsForAverages.getAllMale()
     femaleRace = calculationsForAverages.getAllFemale()
@@ -24,7 +24,7 @@ def averageMvsF():
     line_chart.add('Males', maleRace)
     line_chart.add('Females', femaleRace)
     line_chart.render_to_file('averageMFBar.svg')
-#averageMvsF()
+averageMvsF()
 def elevationScatter():
     xy_chart = pygal.XY(stroke=False)
     locations = calculationsForAverages.getRaceList()
@@ -49,7 +49,7 @@ def ageGroupPie():
     pie_chart.add('60-69', calculationsForAgeGroups.getAllAgeGroup(60, 69))
     pie_chart.add('70-79', calculationsForAgeGroups.getAllAgeGroup(70, 79))
     pie_chart.render_to_file('agePie.svg')
-#ageGroupPie()
+ageGroupPie()
 def humidityScatter():
     xy_chart = pygal.XY(stroke=False)
     locations = calculationsForAverages.getRaceList()
