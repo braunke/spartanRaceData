@@ -27,7 +27,6 @@ def getAInfo(race):
     times = sum([a * b for a, b in zip(ftr, map(int, averageS.split(':')))])
     final = times/3600
     conn = sqlite3.connect('sp.db')
-    print(final)
     cursor = conn.execute('''SELECT LOCATION from
                                   RACES WHERE RACEID=?''',(race,))
     location = ''

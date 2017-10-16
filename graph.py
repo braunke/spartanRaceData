@@ -29,13 +29,8 @@ def elevationScatter():
     xy_chart = pygal.XY(stroke=False)
     locations = calculationsForAverages.getRaceList()
     xy_chart.title = 'Affects of Elevation'
-    xy_chart.add(locations[0], calculationsForScatter.getItAllAlt(0))
-    xy_chart.add(locations[1], calculationsForScatter.getItAllAlt(1))
-    xy_chart.add(locations[2], calculationsForScatter.getItAllAlt(2))
-    xy_chart.add(locations[3], calculationsForScatter.getItAllAlt(3))
-    xy_chart.add(locations[4], calculationsForScatter.getItAllAlt(4))
-    xy_chart.add(locations[5], calculationsForScatter.getItAllAlt(5))
-    xy_chart.add(locations[6], calculationsForScatter.getItAllAlt(6))
+    for i in range(0, 10):
+        xy_chart.add(locations[i], calculationsForScatter.getItAllAlt(i))
     xy_chart.render_to_file('elevationScatter.svg')
 #elevationScatter()
 def ageGroupPie():
@@ -54,28 +49,18 @@ def humidityScatter():
     xy_chart = pygal.XY(stroke=False)
     locations = calculationsForAverages.getRaceList()
     xy_chart.title = 'Affects of Humidity'
-    xy_chart.add(locations[0], calculationsForScatter.getItAllHumidity(0))
-    xy_chart.add(locations[1], calculationsForScatter.getItAllHumidity(1))
-    xy_chart.add(locations[2], calculationsForScatter.getItAllHumidity(2))
-    xy_chart.add(locations[3], calculationsForScatter.getItAllHumidity(3))
-    xy_chart.add(locations[4], calculationsForScatter.getItAllHumidity(4))
-    xy_chart.add(locations[5], calculationsForScatter.getItAllHumidity(5))
-    xy_chart.add(locations[6], calculationsForScatter.getItAllHumidity(6))
+    for i in range(0, 10):
+        xy_chart.add(locations[i], calculationsForScatter.getItAllHumidity(i))
     xy_chart.render_to_file('humidityScatter.svg')
 #humidityScatter()
 def tempScatter():
     xy_chart = pygal.XY(stroke=False)
     locations = calculationsForAverages.getRaceList()
     xy_chart.title = 'Affects of Temperature'
-    xy_chart.add(locations[0], calculationsForScatter.getItAllTemp(0))
-    xy_chart.add(locations[1], calculationsForScatter.getItAllTemp(1))
-    xy_chart.add(locations[2], calculationsForScatter.getItAllTemp(2))
-    xy_chart.add(locations[3], calculationsForScatter.getItAllTemp(3))
-    xy_chart.add(locations[4], calculationsForScatter.getItAllTemp(4))
-    xy_chart.add(locations[5], calculationsForScatter.getItAllTemp(5))
-    xy_chart.add(locations[6], calculationsForScatter.getItAllTemp(6))
+    for i in range(0, 10):
+        xy_chart.add(locations[i], calculationsForScatter.getItAllTemp(i))
     xy_chart.render_to_file('tempScatter.svg')
-#tempScatter()
+tempScatter()
 def topTimesBar():
     races = topTimes.getItAll()
     line_chart = pygal.HorizontalBar()

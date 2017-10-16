@@ -34,7 +34,6 @@ def getAInfo(race):
     location = ''
     for row in cursor:
         location = (row[0])
-    print(total)
     return final, location
 
 #collects all the data and puts it in a list
@@ -49,6 +48,6 @@ def getItAll():
     for raceid in raceids:
         race = getAInfo(raceid[0])
         races.append(race)
-    print(races)
+
     return races
 getItAll()
