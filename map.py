@@ -1,3 +1,5 @@
+#used this site to develop map
+#http://python-visualization.github.io/folium/quickstart.html
 import folium
 m = folium.Map(
     location=[39.0997, -94.5786],
