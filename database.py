@@ -1,5 +1,5 @@
 import sqlite3
-
+#database to store race info and result info
 def createDatabase():
     try:
         conn = sqlite3.connect('sp.db')

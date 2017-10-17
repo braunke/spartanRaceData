@@ -1,5 +1,5 @@
 import sqlite3
-#grabs race times and altitude
+#grabs race times and altitude, altitude, humidity and temp all use were similar code
 def getRaceTimes(race):
     conn = sqlite3.connect('sp.db')
     cur = conn.cursor()
@@ -16,6 +16,7 @@ def getRaceTimes(race):
         # handles if a time does not have hours
         if len(split) < 3:
             split.insert(0, '0')
+        #rounded times to just minutes and only plotted one dot per each minute someone finished since otherwise there were too many points to graph
         roundedTimeToAdd = split[0] + ":" + split[1]
         if roundedTimeToAdd != lastTimeAdded:
             lastTimeAdded = roundedTimeToAdd

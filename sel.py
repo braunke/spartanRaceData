@@ -19,7 +19,7 @@ for race in data["races"] :
     temperature = race["temperature"]
     location = race["name"]
     raceID = database.createRace(location, elevation, temperature, humidity)
-
+#on the site page needed to make sure the right race type was selected
     browser.get(url)
     time.sleep(2)
     browser.find_elements_by_css_selector('div[name="race-filter"] button')[0].click()
@@ -33,6 +33,7 @@ for race in data["races"] :
     while True:
         source = browser.page_source
         soup = BeautifulSoup(source, "html.parser")
+        #goes through all pages on race results
         curSpanList = browser.find_elements_by_css_selector("div[class=pagination] span.active")
         if len(curSpanList) > 0:
             curPage = curSpanList[0].text
@@ -40,7 +41,6 @@ for race in data["races"] :
             curPage = "Last"
         print("scraping page: " + curPage)
         result = soup.find_all("tr", {"class":["result"]})
-        #columns = ["Name", "Claim", "Bib", "Age", "Gender", "Overall Place", "Gender Place", "Age Group Place", "Time"]
         for r in result:
             tds = r.find_all("td")
             if (len(tds) == 9):
@@ -49,6 +49,7 @@ for race in data["races"] :
                 for td in tds:
                     text = td.get_text()
                     formatedtext = text + " "
+                    #only grabbed the info I wanted and put in list
                     if index ==3 or index == 4  or index ==8:
                         resultString += formatedtext
                     index += 1
@@ -58,6 +59,7 @@ for race in data["races"] :
             print("Scraped " + str(resultNum) + " results.")
             break
         nextSpanList = browser.find_elements_by_css_selector("div[class=pagination] span.active + span")
+        #logic to deal with site not always accually going to the next page
         if len(nextSpanList) > 0:
             button = nextSpanList[0]
             button.click()

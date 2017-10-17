@@ -23,6 +23,7 @@ def getAInfo(race):
     average =(str(timedelta(seconds=sum(map(lambda f: int(f[0])*3600 + int(f[1])*60 + int(f[2]), map(lambda f: f.split(':'), times)))/len(times))))
     #rounds to whole seconds
     averageS = average[:average.rfind(".")]
+    #converts to a number I can use on the graph
     ftr = [3600, 60, 1]
     times = sum([a * b for a, b in zip(ftr, map(int, averageS.split(':')))])
     final = times/3600
@@ -49,7 +50,6 @@ def getItAll():
         races.append(race)
 
     return races
-getItAll()
 #calculates the average race times for males and females
 def getAverageGender(race, gender):
     conn = sqlite3.connect('sp.db')
