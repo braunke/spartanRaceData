@@ -1,0 +1,1 @@
+This project scraped data from the Spartan race pages for several different races and puts the information into a database. I then query data from the database to analyze different aspects of the Spartan race results. I then use pygal to create graphs to represent my findings. 
